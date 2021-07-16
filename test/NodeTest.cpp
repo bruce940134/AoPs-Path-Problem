@@ -23,7 +23,7 @@ int main(){
     assert(node->leftParent == nullptr);
     assert(node->isEmpty() == true);
     cout << "isEmpty() Function Test Passed" << endl;
-    assert(node->visited == 0);
+    assert(node->from == -1);
 
     cout << "Constructor Test Passed" << endl;
 
